@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    z-index: 100;
+    background-color: black;
+    color: bisque;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color:rgb(224, 172, 74);
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.nav-bar a{
+    display: inline-block;
+    font-size: 25px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: o.3s;
+}
+.nav-bar a:hover{
+    color:rgb(224, 172, 74); 
+}
+#about{
+    margin-top: 50px;
+    color: black;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: space-between;
+
+}
+
+.img{
+    width:450px;
+    height: 400px;
+    border-radius:50%;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+button{
+    border-radius: 15px;
+    font-size: 1.25rem;
+    margin: 8px;
+    padding: 5px;
+    background-color: #fff;
+    transition: 0.3s;
+}
+#b2{
+    color: #fff;
+    background-color: #333;
+}
+.cont{
+    justify-content:space-evenly;
+    text-align: center;
+    margin-right: 250px;
+    margin-top: 200px;
+    padding: 5px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.tagline {
+    margin: 5px 0 0;
+}
+
+section {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bio {
+    margin-top: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.6rem;
+}
+#skills ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+}
+
+.pro1{
+    height: 50%;
+    width: 50%;
+    margin: 10px;
+}
+.imm{
+    display: flex;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+#resume{
+    text-align: center;
+    font-size: 1.3rem;
+   
+    
+}
+#re{
+    text-decoration: none;
+    color:rgb(56, 5, 90);
+    font-size: 1.4rem;
+}
+#contact{
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
